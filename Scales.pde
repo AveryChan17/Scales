@@ -13,7 +13,7 @@ void draw() {
 
 void star(int x, int y) {
  push();
-    translate(x, y); // center of the star
+    translate(x, y);
    int r = 169 + (int)(Math.random()*78);
    int g = 207 + (int)(Math.random()*66);
    int b = 245 + (int)(Math.random()*29);
